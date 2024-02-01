@@ -1,12 +1,13 @@
 h1 {
+  color:rgb(205, 214, 244);
     text-align: center;
   }
   
   .display {
     display: flex;
     justify-content: center;
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
+    border-top: 7px solid rgb(17, 17, 27);
+    border-bottom: 7px solid rgb(17, 17, 27);
   }
   
   .column {
@@ -22,13 +23,21 @@ h1 {
   }
   
   .songs p {
+    /* color: rgb(205, 214, 244); */
     font-size: 18px;
     height: 100px;
     font-weight: bold;
     margin: 20px;
   }
   
+ p {
+    color: rgb(205, 214, 244);
+    
+ }
+
+
   .artists p {
+    /* color: rgb(205, 214, 244); */
     font-size: 18px;
     height: 100px;
     margin: 20px;
@@ -38,7 +47,6 @@ h1 {
     font-size: 16px;
     height: 100px;
     margin: 20px;
-    text-align: right;
   }
   
   .links a {
@@ -47,6 +55,7 @@ h1 {
     height: 100px;
     font-weight: bold;
     margin: 20px;
+    color: rgb(203, 166, 247);
   }
   
   .form {
@@ -63,4 +72,8 @@ h1 {
   button {
     font-size: 14px;
     padding: 5px 10px;
+  }
+
+  body {
+    background-color: rgb(30, 30, 46);
   }
