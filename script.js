@@ -16,6 +16,7 @@ let playlist = [
   // PLACEHOLDER DATA
   new Song("Phases of my Life", "Sofasound", "https://i.scdn.co/image/ab67616d0000b273ea6e710908c84591eae14994", "https://youtu.be/qPvVl-bganM", "3:19"),
   new Song("Better Days", "Lakey Inspired", "https://i1.sndcdn.com/artworks-000222487806-ucylzp-t500x500.jpg", "https://www.youtube.com/watch?v=RXLzvo6kvVQ", "3:15"),
+  
 ]
 
 // Use the body of this function to display your playlist.
