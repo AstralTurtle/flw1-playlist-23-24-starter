@@ -13,11 +13,17 @@ class Song {
 
 
 let playlist = [
-  // PLACEHOLDER DATA
   new Song("Phases of my Life", "Sofasound", "https://i.scdn.co/image/ab67616d0000b273ea6e710908c84591eae14994", "https://youtu.be/qPvVl-bganM", "3:19"),
   new Song("Better Days", "Lakey Inspired", "https://i1.sndcdn.com/artworks-000222487806-ucylzp-t500x500.jpg", "https://www.youtube.com/watch?v=RXLzvo6kvVQ", "3:15"),
-  
+  new Song("SIDE 2 SIDE", "3D Blast", "https://i.scdn.co/image/ab67616d0000b2738cc68846188b979b810c72c0", "https://www.youtube.com/watch?v=uKnXDboTiRI&list=OLAK5uy_lMFp6nYzJwUwBrL6Jq9OrK0V5-v5liU40&index=16", "3:03"),
+  new Song("Player One.", "3D Blast", "https://i.scdn.co/image/ab67616d0000b2738cc68846188b979b810c72c0", "https://www.youtube.com/watch?v=t-w7dxpqz6g&list=OLAK5uy_lMFp6nYzJwUwBrL6Jq9OrK0V5-v5liU40&index=23","2:57"),
+  new Song ("Starship", "Kupla","https://i.scdn.co/image/ab67616d0000b273ea6e710908c84591eae14994","https://www.youtube.com/watch?v=geoR4A8ETiI&list=OLAK5uy_l2g5cdWy3DRXLSPQb-2SmeerUOphOHVt0&index=30&pp=8AUB", "2:23"),
+  new Song ("Moonlight", "Sofasound","https://i.scdn.co/image/ab67616d0000b273ea6e710908c84591eae14994", "https://www.youtube.com/watch?v=vrmpOOLrKtg&list=OLAK5uy_l2g5cdWy3DRXLSPQb-2SmeerUOphOHVt0&index=35&pp=8AUB"
+  ,"2:57"),
+  new Song("Carmella", "Spin Eternally","https://i1.sndcdn.com/artworks-NHG8D4NiN9aweicZ-TbC8kQ-t500x500.jpg", "https://www.youtube.com/watch?v=IuRwqB9NwVQ","3:50"),
+  new Song("LUV U NEED U", "Slushii","https://i.scdn.co/image/ab67616d0000b2738cc68846188b979b810c72c0", "https://www.youtube.com/watch?v=IuRwqB9NwVQ","3:50")
 ]
+  // https://www.youtube.com/watch?v=vrmpOOLrKtg&list=OLAK5uy_l2g5cdWy3DRXLSPQb-2SmeerUOphOHVt0&index=35&pp=8AUB
 
 // Use the body of this function to display your playlist.
 function displaySongInfo(songs) {
@@ -42,17 +48,23 @@ function displaySongInfo(songs) {
     // image
     if (songs[i].imageUrl != undefined){
     let image = document.createElement("img");
+    // wrap in a p tag
+    let parent = document.createElement("p");
     image.src = songs[i].imageUrl;
-    imagesDiv.append(image);
+    parent.append(image);
+    imagesDiv.append(parent);
     }
 
     // link
     if (songs[i].link != undefined){
+    let parent = document.createElement("p");
+    image.src = songs[i].imageUrl;
     let link = document.createElement("a");
     link.href = songs[i].link;
     link.target = "_blank";
     link.innerHTML = "Listen";
-    linksDiv.append(link);
+    parent.append(link);
+    linksDiv.append(parent);
     }
     // length
     if (songs[i].length != undefined){

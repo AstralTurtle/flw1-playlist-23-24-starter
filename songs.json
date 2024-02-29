@@ -1,0 +1,59 @@
+{
+    "songs" :[
+        {
+            "title" : "Phases of my Life", "artist": "Sofasound", "imageURL":"https://i.scdn.co/image/ab67616d0000b273ea6e710908c84591eae14994","link" : "https://youtu.be/qPvVl-bganM","runtime": "3:19"
+
+}, [
+    {
+      "title": "Better Days",
+      "artist": "Lakey Inspired",
+      "imageUrl": "https://i1.sndcdn.com/artworks-000222487806-ucylzp-t500x500.jpg",
+      "link": "https://www.youtube.com/watch?v=RXLzvo6kvVQ",
+      "length": "3:15"
+    },
+    {
+      "title": "SIDE 2 SIDE",
+      "artist": "3D Blast",
+      "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738cc68846188b979b810c72c0",
+      "link": "https://www.youtube.com/watch?v=uKnXDboTiRI&list=OLAK5uy_lMFp6nYzJwUwBrL6Jq9OrK0V5-v5liU40&index=16",
+      "length": "3:03"
+    },
+    {
+      "title": "Player One.",
+      "artist": "3D Blast",
+      "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738cc68846188b979b810c72c0",
+      "link": "https://www.youtube.com/watch?v=t-w7dxpqz6g&list=OLAK5uy_lMFp6nYzJwUwBrL6Jq9OrK0V5-v5liU40&index=23",
+      "length": "2:57"
+    },
+    {
+      "title": "Starship",
+      "artist": "Kupla",
+      "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ea6e710908c84591eae14994",
+      "link": "https://www.youtube.com/watch?v=geoR4A8ETiI&list=OLAK5uy_l2g5cdWy3DRXLSPQb-2SmeerUOphOHVt0&index=30&pp=8AUB",
+      "length": "2:23"
+    },
+    {
+      "title": "Moonlight",
+      "artist": "Sofasound",
+      "imageUrl": "https://i.scdn.co/image/ab67616d0000b273ea6e710908c84591eae14994",
+      "link": "https://www.youtube.com/watch?v=vrmpOOLrKtg&list=OLAK5uy_l2g5cdWy3DRXLSPQb-2SmeerUOphOHVt0&index=35&pp=8AUB",
+      "length": "2:57"
+    },
+    {
+      "title": "Carmella",
+      "artist": "Spin Eternally",
+      "imageUrl": "https://i1.sndcdn.com/artworks-NHG8D4NiN9aweicZ-TbC8kQ-t500x500.jpg",
+      "link": "https://www.youtube.com/watch?v=IuRwqB9NwVQ",
+      "length": "3:50"
+    },
+    {
+      "title": "LUV U NEED U",
+      "artist": "Slushii",
+      "imageUrl": "https://i.scdn.co/image/ab67616d0000b2738cc68846188b979b810c72c0",
+      "link": "https://www.youtube.com/watch?v=IuRwqB9NwVQ",
+      "length": "3:50"
+    }
+  ]
+  
+    ]
+}
