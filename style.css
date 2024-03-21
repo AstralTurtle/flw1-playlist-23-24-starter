@@ -29,6 +29,10 @@ h1 {
     font-weight: bold;
     margin: 20px;
   }
+
+  iframe {
+    height: 100px;
+  }
   
  p {
     color: rgb(205, 214, 244);
